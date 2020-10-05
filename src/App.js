@@ -1,8 +1,8 @@
 import React from "react";
 import "./App.css";
-
+import profile from "./assets/imagem1.png";
 function App() {
-  return <h1>Hello World firt component</h1>;
+  return <img src={profile} />;
 }
 
 export default App;
